@@ -1,0 +1,20 @@
+uuid: b4c8763b-74cf-4933-bd05-edc3dc6b380d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_easy_news_presentation
+  module:
+    - user
+id: user.user.field_easy_news_presentation
+field_name: field_easy_news_presentation
+entity_type: user
+bundle: user
+label: Easy News Presentation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

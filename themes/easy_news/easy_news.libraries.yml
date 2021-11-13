@@ -1,0 +1,47 @@
+uikit:
+  remote: https://getuikit.com/v2/index.html
+  version: 2.27.4
+  license:
+    name: MIT
+    url: https://github.com/uikit/uikit/blob/develop/LICENSE.md
+    gpl-compatible: true
+  css:
+    base:
+      //cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/css/uikit.min.css: { type: external, minified: true, weight: -20 }
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/uikit.min.js: { type: external, minified: true, weight: -20 }
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+font-awesome:
+  remote: http://fontawesome.io/
+  version: 4.6.3
+  license:
+    name: MIT
+    url: http://fontawesome.io/license/
+    gpl-compatible: true
+  css:
+    base:
+      //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css: { type: external, minified: true }
+
+fonts:
+  license:
+    name: SIL Open Font License, 1.1
+    url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Poppins: { type: external }
+      css/easy_intranet.base.css: {}
+
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/base.css: {}
+      css/layout.css: {}
+      css/component.css: {}
+
+notifysystem:
+  js:
+    js/notify-system.js: {}

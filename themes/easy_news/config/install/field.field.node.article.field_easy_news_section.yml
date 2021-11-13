@@ -1,0 +1,28 @@
+uuid: 02d03edb-bc36-499c-90e3-0a9da6137e34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_easy_news_section
+    - node.type.article
+    - taxonomy.vocabulary.easy_news_sections
+id: node.article.field_easy_news_section
+field_name: field_easy_news_section
+entity_type: node
+bundle: article
+label: 'Easy News Section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      easy_news_sections: easy_news_sections
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

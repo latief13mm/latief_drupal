@@ -1,0 +1,15 @@
+uuid: 3e33cc0b-49b2-40c5-a0a1-fe6c18e3539e
+langcode: es
+status: true
+dependencies: {  }
+name: easy_news_large_thumbnail_480x270
+label: 'Easy News Large Thumbnail (480x270)'
+effects:
+  7b84613d-37bc-4672-b623-492cf4ac5da6:
+    uuid: 7b84613d-37bc-4672-b623-492cf4ac5da6
+    id: image_scale
+    weight: 1
+    data:
+      width: 680
+      height: 270
+      upscale: false

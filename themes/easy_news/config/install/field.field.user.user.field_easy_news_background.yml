@@ -1,0 +1,38 @@
+uuid: e7c151be-2fd8-46d9-873b-f4809ea5ed93
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_easy_news_background
+  module:
+    - image
+    - user
+id: user.user.field_easy_news_background
+field_name: field_easy_news_background
+entity_type: user
+bundle: user
+label: Easy News Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '227 KB'
+  max_resolution: 960x400
+  min_resolution: 480x200
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: d59e8256-90be-423c-9582-7b26fe83b990
+    alt: ''
+    title: ''
+    width: 960
+    height: 400
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

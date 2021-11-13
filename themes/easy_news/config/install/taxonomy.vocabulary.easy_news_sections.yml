@@ -1,0 +1,9 @@
+uuid: 298d5bbe-5853-4f37-aa49-2c144b2c04ba
+langcode: en
+status: true
+dependencies: {  }
+name: 'Easy News Sections'
+vid: easy_news_sections
+description: ''
+hierarchy: 1
+weight: 0

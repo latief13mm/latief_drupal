@@ -1,0 +1,19 @@
+uuid: 8143c99f-939f-4f38-9b1f-69adbe3fe78f
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_easy_news_comment
+id: comment.comment.field_easy_news_comment
+field_name: field_easy_news_comment
+entity_type: comment
+bundle: comment
+label: 'Easy News Comment'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

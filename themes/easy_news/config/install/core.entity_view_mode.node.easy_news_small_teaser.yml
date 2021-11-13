@@ -1,0 +1,10 @@
+uuid: ef2b90af-7f8f-43c9-bc81-d8e9714145b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.easy_news_small_teaser
+label: 'Easy News Small Teaser'
+targetEntityType: node
+cache: true

@@ -1,0 +1,30 @@
+uuid: 9a477663-0375-4c4d-832c-1f63bddb7013
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - user
+id: user.field_easy_news_background
+field_name: field_easy_news_background
+entity_type: user
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: b2c8e9af-8b6e-4a45-9cfa-ab634daf7f05
+    alt: ''
+    title: ''
+    width: 960
+    height: 454
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
