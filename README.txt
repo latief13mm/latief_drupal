@@ -1,3 +1,31 @@
+HOW TO INSTALL OR CLONE THIS DRUPAL AT YOUT PC :
+1. You can user terminal (git bash or if yout coding editor has terminal you can use the terminal
+2. Please same of the name folder on your PC with the repository "latief_drupal" because CSS system and database can't automatic syncronise if you have different folder name
+3. Install the databse on XAMPP or etc, yout can get the database sql in my repository the name of database is "latief_drupal" you can import on your favorite database
+4. If the database still seacrhing SQL or database you can configuration on your drupal. you can visit the folder path "C:\xampp\htdocs\latief_drupal\sites\default\settings.php"
+  and setting syntax on your part, for example : 
+//  
+  $databases['default']['default'] = array (
+  'database' => 'latief_drupal',
+  'username' => 'root',
+  'password' => '',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['config_sync_directory'] = 'sites/default/files/config_PX31SUbpRlmZ4YPrVTGWN8xakzAedUNk_cLPn_gaeJhiAIWltCStHdTiG1eACkhcihi3epUtNQ/sync';
+//
+5. if you have finished installation drupal you can to use account for login system on project drupal :
+  -> Admin => Username : latief
+              Password : latief123
+   
+  -> User => Username : user
+             Password : user123
+
+6. Okay finally enjoy your coding 
+
 
 CONTENTS OF THIS FILE
 ---------------------
