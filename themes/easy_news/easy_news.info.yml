@@ -1,0 +1,36 @@
+name: Easy News
+description: A theme for news publishing, based on Uikit
+base theme: classy
+type: theme
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - easy_news/global-styling
+  - easy_news/uikit
+  - easy_news/fonts
+
+regions:
+  branding: 'Branding'
+  header_ad: 'Header Ad'
+  main_menu: 'Main Menu'
+  social_icons: 'Social Icons'
+  slideshow: 'Slideshow'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  section_widget_1: 'Section Widget 1'
+  section_widget_2: 'Section Widget 2'
+  section_widget_3: 'Section Widget 3'
+  section_widget_4: 'Section Widget 4'
+  section_widget_5: 'Section Widget 5'
+  section_widget_6: 'Section Widget 6'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
+  secondary_menu: 'Secondary menu'
+  credits: 'Copyright & Credits'
+
+# Information added by Drupal.org packaging script on 2021-10-26
+version: '8.x-2.3'
+project: 'easy_news'
+datestamp: 1635287391

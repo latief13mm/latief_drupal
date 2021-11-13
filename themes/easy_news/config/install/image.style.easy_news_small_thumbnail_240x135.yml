@@ -1,0 +1,15 @@
+uuid: 6ba51253-fd9c-4f22-80b3-b0c85b8f7712
+langcode: es
+status: true
+dependencies: {  }
+name: easy_news_small_thumbnail_240x135
+label: 'Easy News Small Thumbnail (240x135)'
+effects:
+  fced75c4-6fc8-46ff-a53d-f692e273a7c6:
+    uuid: fced75c4-6fc8-46ff-a53d-f692e273a7c6
+    id: image_scale
+    weight: 1
+    data:
+      width: 240
+      height: 135
+      upscale: false

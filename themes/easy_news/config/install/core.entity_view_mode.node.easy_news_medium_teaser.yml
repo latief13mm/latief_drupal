@@ -1,0 +1,10 @@
+uuid: 955a063c-5f47-498b-ba06-a3d2a8b6d71b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.easy_news_medium_teaser
+label: 'Easy News Medium Teaser'
+targetEntityType: node
+cache: true

@@ -1,0 +1,15 @@
+uuid: b2857bb4-8cf5-479f-92a6-e5d8f6bd39ac
+langcode: es
+status: true
+dependencies: {  }
+name: easy_news_medium_thumbnail_320x180
+label: 'Easy News Medium Thumbnail (320x180)'
+effects:
+  37fd2cc4-0ded-4e1a-a181-7104f4d069b7:
+    uuid: 37fd2cc4-0ded-4e1a-a181-7104f4d069b7
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: 180
+      upscale: false

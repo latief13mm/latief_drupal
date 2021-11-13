@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * The primary PHP file for the Easy News subtheme of the UIkitty base theme.
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function easy_news_preprocess_page(&$vars) {
+  $site_config = \Drupal::config('system.site');
+  $vars['site_name'] = $site_config->get('name');
+  $vars['site_slogan'] = $site_config->get('slogan');
+}
+
+/**
+ * Implements hook_preprocess_user().
+ */
+function easy_news_preprocess_user(&$variables) {
+  /** @var User $account */
+  $account = $variables['elements']['#user'];
+
+  $variables['username'] = $account->getDisplayName();
+}

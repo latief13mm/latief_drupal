@@ -1,0 +1,19 @@
+uuid: 5ad43207-efcd-4ced-a4ac-fe0a693d8985
+langcode: es
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.field_easy_news_comment
+field_name: field_easy_news_comment
+entity_type: comment
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
